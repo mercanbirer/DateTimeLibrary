@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace 'com.example.date_time'
+    namespace 'com.example.date_time-library'
     compileSdk 33
 
     defaultConfig {

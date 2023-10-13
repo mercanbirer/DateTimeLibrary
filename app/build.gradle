@@ -7,7 +7,7 @@ android {
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.razaghimahdi.composepersiandatepicker"
+        applicationId "com.example.app"
         minSdk 21
         targetSdk 33
         versionCode 1
