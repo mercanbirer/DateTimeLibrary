@@ -50,21 +50,3 @@ fun Date?.dateYearMonthDayDigits(): String {
     val pattern = "yyyy-MM-dd"
     return getFormatDate(this, pattern)
 }
-
-// "Per, Ekim 13"
-fun Date?.dateEMonthday(): String {
-    val pattern = "EEE, MMM dd"
-    return getFormatDate(this, pattern)
-}
-
-// "Per, Ekim 23"
-fun Date?.dateEMYShort(): String {
-    val pattern = "EEE, MMM YY"
-    return getFormatDate(this, pattern)
-}
-
-// "Perşembe, Ekim 2023"
-fun Date?.dateEMY(): String {
-    val pattern = "EEEE, MMMM YYYY"
-    return getFormatDate(this, pattern)
-}
