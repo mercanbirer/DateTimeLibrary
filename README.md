@@ -18,7 +18,7 @@ app `build.gradle`:
 
 ```
 dependencies {
-     implementation 'com.github.mercanbirer:DateTimeLibary:<latest-version>'
+     implementation 'com.github.mercanbirer:DateTimeLibrary:<latest-version>'
 }
 ```
 
