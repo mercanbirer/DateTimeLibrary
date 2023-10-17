@@ -1,4 +1,5 @@
 package com.example.date_time_library
+
 import android.annotation.SuppressLint
 import java.text.ParseException
 import java.text.SimpleDateFormat
@@ -37,6 +38,27 @@ object Utility {
 
     const val TIME_STANDARD_WITHOUT_SECONDS = "HH:mm:ss"
     const val EXT_TIME_STANDARD_WITHOUT_SECONDS = "ss:mm:HH"
+
+
+    //     -------DATETİME-------
+    const val DATETIME_STANDARD = "dd MMMM yyyy HH:mm:ss"
+
+    const val DATETIME_STANDARD_12_HOURS = "dd MMMM yyyy h:mm:ss a"
+
+    const val DATETIME_STANDARD_DIGITS = "dd-MM-yyyy HH:mm:ss"
+
+    const val DATETIME_STANDARD_12_HOURS_DIGITS = "dd-MM-yyyy h:mm:ss a"
+
+    const val DATETIME_STANDARD_CONCISE = "dd MMM yyyy HH:mm:ss"
+
+    const val DATETIME_STANDARD_CONCISE_IN_12_HOURS = "dd MMM yyyy h:mm:ss a"
+
+    const val DATETIME_LAST_TWO_OF_THE_YEAR = "dd MMMM yy HH:mm:ss"
+
+    const val DATETIME_LAST_TWO_OF_THE_YEAR_DIGITS = "dd-MM-yy HH:mm:ss"
+
+    const val DATETIME_LAST_TWO_OF_THE_YEAR_CONCISE = "dd MMM yy HH:mm:ss"
+
 
     fun getFormatDate(date: Date?, pattern: String): String {
         val simpleDateFormat = SimpleDateFormat(pattern, Locale.getDefault())

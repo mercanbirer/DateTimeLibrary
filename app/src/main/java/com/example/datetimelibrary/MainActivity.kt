@@ -7,7 +7,6 @@ import androidx.activity.compose.setContent
 import com.example.date_time_library.DateUtility
 import com.example.date_time_library.Utility
 import com.example.date_time_library.Utility.parseDate
-
 import com.example.datetimelibrary.ui.theme.DateTimeLibraryTheme
 
 
@@ -20,8 +19,8 @@ class MainActivity : ComponentActivity() {
                 val date = parseDate(dateString, Utility.EXT_STANDARD_PATTERN)
 
                 if (date != null) {
-                    val deneme = DateUtility.dateStandard(date)
-                    Log.e("deneme",deneme)
+                    val dateFormat = DateUtility.dateStandard(date)
+                    Log.e("dateFormat", dateFormat)
                 }
 
             }
