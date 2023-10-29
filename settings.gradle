@@ -13,6 +13,6 @@ dependencyResolutionManagement {
         maven { url 'https://jitpack.io' }
     }
 }
-rootProject.name = "DateTimeLibrary"
+rootProject.name = "date-time-library"
 include ':app'
 include ':date-time-library'
